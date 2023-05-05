@@ -48,7 +48,7 @@ class ArticleController extends Controller
         $article = Article::create([
             'slug' => Str::slug($request->title),
             'status' => $request->status === 'on',
-            'user_id' => auth()->id,
+            'user_id' => $request->user()->id,
         ] + $request->validated());
 
         $article->tags()->attach($request->tags);

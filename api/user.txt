@@ -1,0 +1,22 @@
+"registerRequest": {
+  "name": "Test User",
+  "email": "test@test.com",
+  "password": "Test@123"
+}
+
+"registerResponse": {
+  "message" : "User Created Successfully",
+  "status" : true,
+  "token" : "3|UmejgJ78ByGNwo5ZPo56Kmv5wH6dvNz9ZBkJMJQF"
+}
+
+"loginRequest": {
+  "email": "test@test.com",
+  "password": "Test@123"
+}
+
+"loginResponse": {
+  "message" : "User Logged In Successfully",
+  "status" : true,
+  "token" : "4|7skPARgRwemXblWLVCe1ROufrIj10Zy76odo8CyO"
+}
